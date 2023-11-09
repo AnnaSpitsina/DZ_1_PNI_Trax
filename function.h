@@ -25,6 +25,7 @@ struct DataFromPNItrax {
     string kGyroZ = "---";
 };
 
+void parsing_package(char* pack);
 string HexInFloat(std::string package);
 void PrintResult(DataFromPNItrax dataFromPNItrax);
 
